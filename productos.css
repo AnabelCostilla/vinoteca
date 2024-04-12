@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    height: auto;
+    margin:0;
+}
+    h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(179, 37, 157)  ;
+        color: aliceblue;
+        padding: 15px 0;
+        margin-top:-8px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align:end;
+        margin-top:15px;
+        margin-bottom: 5%;
+        margin-top: -21px;
+        width:100%;
+        text-decoration:none;
+        padding: 1% 0%;
+        font-size: 50%;
+        color: #fff;
+        background-color: #4b124b;
+        transition: background-color 0.5s ease;
+    }
+    a{
+        width:5%;
+        margin:17px;
+    }
+    .bottones-nav {
+        display: flex;
+        justify-content:end;
+        margin: -1%;
+    }
+
+    .bottones-nav .button{
+        text-align:end;
+        margin-top: 7%;
+        width:150%;
+        margin: 2%;
+        left: 3%;
+        margin-inline-start:-50% ;
+        text-decoration:none;
+        padding:0% 0%;
+        font-size:14px;
+        color: #fff;
+        background-color: #5d145d;
+        border-radius: 8%;
+        transition: background-color 0.3s ease;
+    }
+
+    .bottones-nav button:hover {
+        background-color: #5a005a; 
+    }
+
+.section{
+    margin: 0 auto;
+    width: 50%;
+    border-left: 60px solid rgb(177, 23, 131);
+    display:grid;
+    gap: 5rem;
+    grid-template-columns: repeat (auto-fit minmax(max(100%,300px,1fr)));
+}
+
+.img{
+    width: 800px;
+    aspect-ratio: 3/2 ;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px){
+    h1 {
+       width: 115%;
+    }
+    nav {
+        width: 115%;
+    }
+    a{
+        width:15%;
+        margin:17px;
+    }
+
+
+}

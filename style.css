@@ -1,0 +1,184 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.copi{
+    width: 100%;
+    height: 60px;
+}
+/*..copita*/
+.seccionA{
+width:3%;
+height:10%; 
+margin:1%;
+margin-top:1%;
+margin-bottom: 5.5%;
+ }
+/*texto del logo*/
+.seccionB{
+width:25%;
+height:40%;
+margin:1%;
+margin-inline-start:-2%;
+margin-bottom: 5.5%;
+}
+/*..seccion nav.. */
+nav,ul{
+    width:10%;
+    height: 20%;
+    list-style: none;
+    margin:1%;
+    padding:-1%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav,li{
+    width: 100%;
+    height:200%;
+    margin:5%;
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+nav ,a{
+text-decoration: none;
+color:#fefbfbfc;
+font-weight: bold;
+width: 98%;
+margin: 0;
+margin-top:-4px;
+padding: 5px 10px;
+font-size: 16px;
+background-color: #834083;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #906790;
+}
+/*  toque elegante */
+nav {
+    font-family: 'Helvetica Neue', sans-serif; 
+    background-color: #781c78; 
+}
+
+nav a:hover {
+    background-color: #6b006b; 
+}
+/*..cuadrante img del logo..*/
+.cuadrante1{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height: 65px;
+    position:relative;
+    top:30%;
+    }
+.logo{
+  width:80%;
+    height:300%;
+    right: 20%;
+}
+.cuadrante2{
+display: flex;
+flex-direction: column;
+ width: 70%;
+ height:65%;
+position: sticky;
+top:50%;
+left: 65%;
+bottom: 30%;
+}
+.poema{  /*..poema en vez de mancha*/
+    margin-left: 20%;
+    padding: 0;
+    padding-left:2%;
+    margin-top:-8%;
+}
+
+footer {
+    width: 100%;
+    height: 32px;
+    position: absolute;
+    margin-top:2.5%;
+    color: #f1eded;
+    background-color: #5d145d;
+    text-align: center;
+    margin-bottom: 34%;
+    font-size: 12px;
+} 
+@media only screen and (max-width: 600px) {
+    /* emobile*/
+    body {
+        
+        background-color: #fff;
+    }
+    
+    .copi{
+        width: 1200px;
+        height: 120px;
+    }
+    
+    nav,li{
+        margin:-60%;
+       margin-top: 4%;
+       margin-bottom:30%;
+      margin-right:80% ;
+   }
+
+   nav,a{
+   width: 350%;
+   margin-top:-1%;
+   padding: 10px 40px;
+   font-size: 36px;
+   
+   }
+    .cuadrante1 {
+        width: 200%;
+        height: 500px;
+    }
+    .logo{
+        width:70%;
+          height:2500px;
+          right: 10%;
+      }
+      .cuadrante2{
+       width: 130%;
+       height:1000px;
+      position: relative;
+      margin-bottom:66%;
+      margin-top: -135%;
+      left: 60%;
+      
+      }
+      .poema{ 
+          width: 125%;
+          height:120%;
+          margin-left: 55%;
+          margin-bottom: 40%;
+          padding-left:2%;
+          margin-top:-4.5%;
+      }
+        
+      img .poema{
+        width: 100%;
+        height: 1200px;
+        margin-top: 30px;
+      }
+    footer {
+        width: 298%;
+        height: 50px;
+        position: absolute;
+        margin-top:-1%;
+        color: #f1eded;
+        background-color: #5d145d;
+        text-align: center;
+        margin-bottom: 35%;
+        font-size: 10px;
+    } 
+
+
+}
